@@ -1,0 +1,139 @@
+body {
+  background-color: aliceblue;
+}
+
+.bg-light {
+  background-color: #e3f2fd !important;
+}
+
+.btn-primary {
+  color: midnightblue;
+  background-color: #e3f2fd;
+  border-color: #007bff;
+}
+.btn-primary:hover {
+  background-color: #8accfd;
+}
+
+#header img {
+  width: 180px;
+}
+
+.text-join {
+  color: mediumblue !important;
+}
+
+#main .carousel-inner img {
+  max-height: 60vh;
+  width: auto;
+  object-fit: contain;
+}
+
+#imagen .carousel-inner img {
+  max-height: 50vh;
+  width: auto;
+  object-fit: contain;
+}
+
+#myTabContent {
+  background-color: white;
+  border-bottom: 1px solid;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-radius: 10px;
+  border-color: #dee2e6 #dee2e6;
+}
+#home {
+  padding: 10px;
+}
+#profile {
+  padding: 10px;
+}
+
+#carousel {
+  position: relative;
+}
+#carousel .overlay {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  color: midnightblue;
+}
+
+h1 {
+  color: midnightblue;
+  text-shadow: 2px 2px 0 aliceblue, 2px -2px 0 aliceblue, -2px 2px 0 aliceblue,
+    -2px -2px 0 aliceblue, 2px 0px 0 aliceblue, 0px 2px 0 aliceblue,
+    -2px 0px 0 aliceblue, 0px -2px 0 aliceblue !important;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+  height: 100%;
+}
+
+#categories {
+  font-size: 15px;
+}
+
+#footer {
+  background: #e3f2fd;
+}
+
+#footer a {
+  color: mediumblue;
+}
+.pb-1,
+.py-1 {
+  padding-bottom: 1rem !important;
+}
+.pt-1,
+.py-1 {
+  padding-top: 1rem !important;
+}
+
+.contact {
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 20px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.social-link {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+}
+
+.social-link.facebook {
+  background-image: url("imagenes/facebook.png");
+}
+.social-link.whatsapp {
+  background-image: url("imagenes/whatsapp.png");
+}
+
+.contenedor {
+  max-width: 1000px;
+  /*width: 100%;*/
+  flex: 1;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+  overflow: inherit;
+  background-position: inherit;
+}
+#letras img {
+  height: 3vh;
+}
